@@ -21,7 +21,7 @@ app.controller('ycyhCtrl', function($scope, $http, $interval) {
 
   $scope.play1 = function() {
     $scope.count = $scope.count + 1;
-    $("#audioDiv").children()[0].play();
+    $("#audioDiv").children()[Math.floor(Math.random() * 4)].play();
     $http({
       method : "POST",
       url : "https://kb1jwi4uvg.execute-api.us-west-1.amazonaws.com/prod01/addone",
