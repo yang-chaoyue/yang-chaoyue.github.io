@@ -9,6 +9,13 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
+h2 {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;  
+}
+
 .text1 {
     font-size: 55px;
     text-align: center;
@@ -18,11 +25,17 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+
 .text2 {
-    font-size: 45px;
+    font-size: 40px;
+    background: #4a40602b;
+    color: #e3be18;
+    display: inline-block;
+    padding: 4px;
+    cursor: pointer;
+
     text-align: center;
     line-height: 1;
-    color: #e3be18;
     margin-top: 10px;
     font-family: 'Nunito', sans-serif;
 }
