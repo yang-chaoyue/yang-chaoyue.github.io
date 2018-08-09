@@ -21,7 +21,6 @@ app.controller('ycyhCtrl', function($scope, $http, $interval) {
 
   $scope.play1 = function() {
     $scope.count = $scope.count + 1;
-    console.log($("#audioDiv"));
     $("#audioDiv").children()[0].play();
     $http({
       method : "POST",
