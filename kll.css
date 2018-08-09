@@ -1,0 +1,42 @@
+
+body {
+  background-image: url("https://s3-us-west-1.amazonaws.com/ycyh/picture/ycy01.jpg");
+  background-color: #cccccc;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Nunito', sans-serif;
+}
+
+.text1 {
+    font-size: 45px;
+    text-align: center;
+    line-height: 1;
+    color: #d94f9d;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.text2 {
+    font-size: 45px;
+    text-align: center;
+    line-height: 1;
+    color: #e3be18;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.center {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -100px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}

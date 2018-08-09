@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="ycyh" ng-controller="ycyhCtrl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href=https://raw.githubusercontent.com/ycyh/ycyh.github.io/master/glowing-star.png>
+    <title>燃烧我的卡路里</title>
+
+    <link href="kll.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="center">
+      <h2 class="text1">{{count}}</h2>
+      <h2 class="text2" ng-click="play1()" class=>燃烧我的卡路里</h2>
+      <div style="display:none;" id="audioDiv">
+        <audio controls>
+          <source src="https://s3-us-west-1.amazonaws.com/ycyh/audio/ycy/kaluli.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js">
+    </script>
+    <script src="ycyhApp.js?version=1">
+    </script>
+  </body>
+</html>
